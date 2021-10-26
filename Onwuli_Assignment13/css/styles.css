@@ -1,0 +1,111 @@
+nav{
+    font-weight: bold;
+    
+}
+
+h1 {
+    font-family:Lucida Sans;
+}
+
+a:visited {
+    color: yellowgreen;
+} 
+
+a:hover 
+{
+    color: deeppink;
+}
+
+nav {
+    background-color: black;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    text-align : center;
+    padding: 10px;
+    margin:0;  
+}
+
+li {
+    font-family: cursive;
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 10px 5px 5px black
+ }
+
+ #bio
+ {
+ font-family: cursive;
+ text-align: center;
+ }
+
+ #bio:first-line {
+    font-size: 30px
+}
+ 
+#form{
+    font-family:fantasy;
+    display: block
+}
+
+div{
+width: 300px;
+border: 5px solid slategray;
+padding: 50px;
+margin: 20px;
+}
+
+input[type="email"]:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.center {
+    text-align: center;
+    font-size: 24px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media (max-width: 100%) {
+body{
+    float: left;
+    width: 50%;
+    padding: 10px;
+      }
+}
+
